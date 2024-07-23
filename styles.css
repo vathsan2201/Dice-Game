@@ -1,0 +1,80 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 0px;
+  font-family: cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+  
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  animation: player 1s;
+}
+
+img {
+  width: 30%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+button{
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: cursive;
+  border-radius: 15px;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#393E46;
+  margin: auto;
+  margin-top: 20px;
+  transition: 0.5s;
+  
+}
+button:hover{
+  font-size: 20px;
+  color:#378f71;
+  cursor: pointer;
+  background-color:#4ECCA3;
+  color: #fffefe;
+}
+@keyframes fadeIn { 
+  from { opacity: 0; }
+  to{opacity: 100;} 
+}
+h1{
+  animation: fadeIn 0.8s infinite alternate;
+}
+@keyframes player{
+  from{opacity: 0;}
+  to{opacity: 100;}
+}
+img{
+  animation: player 5s;
+}
